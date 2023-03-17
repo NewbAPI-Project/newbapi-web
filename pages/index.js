@@ -7,8 +7,11 @@ export default function Home() {
   return (
     <>
     <AppNav />
-    <div className="container">
+    <div className="bg-white">
       <Heros />
+    </div>
+    <div className="container">
+      
       <Features />
       <Footer />
     </div>
