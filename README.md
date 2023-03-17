@@ -1,5 +1,5 @@
 # Welcome to NewbAPI 🚀
-![Image](screenshot/newapi-ss.png)
+![Image](screenshot/newbapi-ss.png)
 
 ## Todo
 1. Deploy API server
