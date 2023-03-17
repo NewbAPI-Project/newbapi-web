@@ -8,7 +8,7 @@ export default function Heros() {
       <p className="lead text-muted mb-4">Empower your developer journey with the limitless potential of APIs.</p>
       <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
         <button type="button" className="btn text-white btn-lg px-4 gap-3 linear-gradient-btn">Explore</button>
-        {/* <button type="button" className="btn btn-outline-secondary btn-lg px-4">Secondary</button> */}
+        <button type="button" className="btn btn-outline-dark btn-lg px-4">Documentation</button>
       </div>
     </div>
   </div>

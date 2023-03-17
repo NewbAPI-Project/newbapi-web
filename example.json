@@ -1,0 +1,9 @@
+{
+  "examples": [
+    {
+      "id": 1,
+      "name": "Requests (Python)",
+      "example": "import requests\nurl = \"https://api-basketball.p.rapidapi.com/timezone\"\nheaders = {\n  \"X-RapidAPI-Key\": \"5572193e18msh699c52a6b9f9812p11a59ajsn502a8c932884\",\n  \"X-RapidAPI-Host\": \"api-basketball.p.rapidapi.com\"\n}\nresponse = requests.request(\"GET\", url, headers=headers)\nprint(response.text)"
+    }
+  ]
+}
