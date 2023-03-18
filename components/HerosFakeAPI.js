@@ -8,8 +8,7 @@ export default function Heros() {
         <div className="col-lg-6 mx-auto">
           <p className="lead text-muted mb-3 mt-2">Free fake API created by a backend developer<br /> for frontend developers to use</p>
           <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
-            {/* <button type="button" className="btn text-white btn-lg px-4 gap-3 linear-gradient-btn">Explore</button> */}
-            <button type="button" className="btn btn-outline-dark btn-lg px-4">Documentation</button>
+            <a href="https://docs.newbapi.com/category/fake-api" target="_blank" className="btn btn-outline-dark btn-lg px-4">Documentation <i className="bi bi-box-arrow-up-right"></i></a>
           </div>
         </div>
       </div>
