@@ -8,11 +8,10 @@ export default function AppNav() {
       <Link href={'/'} passHref legacyBehavior>
         <Navbar.Brand>NewbAPI</Navbar.Brand>
       </Link>
-        
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Link href={'/explore'} passHref legacyBehavior>
+            <Link href={'https://rapidapi.com/user/newbAPIOfficial'} target="_blank" passHref legacyBehavior>
               <Nav.Link>Explore</Nav.Link>
             </Link>
             <Link href={'/fake-api'} passHref legacyBehavior>
