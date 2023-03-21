@@ -11,13 +11,6 @@ export default function Heros() {
         <a href="https://rapidapi.com/user/newbAPIOfficial" target="_blank" className="btn text-white btn-lg px-4 gap-3 linear-gradient-btn">Explore <i className="bi bi-box-arrow-up-right"></i></a>
         <a href="https://docs.newbapi.com" target="_blank" className="btn btn-outline-dark btn-lg px-4">Documentation <i className="bi bi-box-arrow-up-right"></i></a>
       </div>
-    {/* <div className="col-lg-12 mt-3 text-center">
-      <p className="lead text-muted mb-4">Empower your developer journey with the limitless potential of APIs.</p>
-      <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
-        <a href="https://rapidapi.com/user/newbAPIOfficial" target="_blank" className="btn text-white btn-lg px-4 gap-3 linear-gradient-btn">Explore <i className="bi bi-box-arrow-up-right"></i></a>
-        <a href="https://docs.newbapi.com" target="_blank" className="btn btn-outline-dark btn-lg px-4">Documentation <i className="bi bi-box-arrow-up-right"></i></a>
-      </div>
-    </div> */}
   </div>
   );
 }
