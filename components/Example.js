@@ -4,7 +4,7 @@ import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
 
 export default function Example() {
   const fetchAllUser = `  // JavaScript fetch() all users
-  fetch('https://fake.newbapi.com/api/v1/users/')
+  fetch('https://fake.newbapi.com/user/api/v1/users/')
     .then(response => response.json()) 
     .then(data => {
       console.log(data); 
@@ -48,7 +48,7 @@ export default function Example() {
     // 100 users
   ]`;
   const fetchSingle = `  // JavaScript fetch() single user
-  fetch('https://fake.newbapi.com/api/v1/users/1')
+  fetch('https://fake.newbapi.com/user/api/v1/users/1')
     .then(response => response.json()) 
     .then(data => {
       console.log(data); 
@@ -57,7 +57,6 @@ export default function Example() {
   });`;
 
   const fetchSingleOutput = `  // JavaScript fetch() single user
-  [
     {
       "id": 1,
       "title": "Mr",
@@ -72,11 +71,10 @@ export default function Example() {
         "street_address": "7018 Northview Place"
       },
       "is_active": true
-    }
-  ]`;
+    }`;
 
   const fetchPagination = `  // JavaScript fetch() Pagination
-  fetch('https://fake.newbapi.com/api/v1/users/?skip=0&limit=10')
+  fetch('https://fake.newbapi.com/user/api/v1/users/?skip=0&limit=10')
     .then(response => response.json()) 
     .then(data => {
       console.log(data); 
@@ -131,7 +129,10 @@ export default function Example() {
     <>
       <h1 className="display-7 lh-1 mb-3 text-center">Example 1</h1>
       <div className='col-md-6 offset-md-3'>
-        <p className="lead">Endpoint: <br /><code>https://fake.newbapi.com/api/v1/users/</code></p>    
+        <p className="lead">
+          Get all users. Total users is <code>1000</code> <br/>
+          Endpoint: <code>https://fake.newbapi.com/user/api/v1/users/</code>
+        </p>    
         
         <SyntaxHighlighter language="js" style={style}>
           {fetchAllUser}
@@ -147,7 +148,9 @@ export default function Example() {
       </div>
       <h1 className="display-7 lh-1 my-5 text-center">Example 2</h1>
       <div className='col-md-6 offset-md-3'>
-        <p className="lead">Endpoint <br/> <code>https://fake.newbapi.com/api/v1/users/?skip=0&limit=10</code></p>    
+        <p className="lead">Get user with limit, suitable for pagination or easy load data. <br/> 
+          Endpoint: <code>https://fake.newbapi.com/user/api/v1/users/?skip=0&limit=10</code>
+        </p>    
         
         <SyntaxHighlighter language="js" style={style}>
           {fetchPagination}
@@ -166,7 +169,8 @@ export default function Example() {
       <h1 className="display-7 lh-1 my-5 text-center">Example 3</h1>
 
       <div className='col-md-6 offset-md-3'>
-        <p className="lead">Endpoint <br/> <code>https://fake.newbapi.com/api/v1/users/1</code></p>        
+        <p className="lead">Get single user. <br />
+          Endpoint: <code>https://fake.newbapi.com/user/api/v1/users/1</code></p>        
         
         <SyntaxHighlighter language="js" style={style}>
           {fetchSingle}
@@ -181,7 +185,7 @@ export default function Example() {
         </SyntaxHighlighter>
   
       </div>
-      <p className="display-7 lh-1 my-5 text-center">Okay, that&apos;s it 🎉</p>
+      <p className="display-7 lh-1 my-5 text-center">That&apos;s it 🎉</p>
     </>
 
   );
