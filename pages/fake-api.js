@@ -8,7 +8,11 @@ import { Button } from 'react-bootstrap';
 export default function FakeAPI() {
   return (
     <>
-      <AppHeader />
+      <AppHeader 
+        title={'NewbAPI — Fake API'} 
+        desc={'Free fake API created by a backend developer for frontend developers to use'} 
+        og={'https://newbapi.com/fakeapi.png'} 
+      />
       <AppNav />
       <div className='container'>
         <HerosFakeAPI />
