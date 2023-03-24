@@ -1,3 +1,4 @@
+import AppHeader from '@/components/AppHeader';
 import AppNav from '@/components/AppNav';
 import Example from '@/components/Example';
 import Footer from '@/components/Footer';
@@ -7,6 +8,7 @@ import { Button } from 'react-bootstrap';
 export default function FakeAPI() {
   return (
     <>
+      <AppHeader />
       <AppNav />
       <div className='container'>
         <HerosFakeAPI />
