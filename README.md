@@ -19,17 +19,22 @@ NewbAPI is available on the [RapidAPI Hub](https://rapidapi.com/user/newbAPIOffi
 
 ### APIs ⚙️
 ##### Freemium
-- [QR Code Generator](https://rapidapi.com/newbAPIOfficial/api/qrcodesvc-qrcode-generator/)
-- [Word Censor + Reporting](https://rapidapi.com/newbAPIOfficial/api/word-censor-with-reporting/)
-- [Math Quiz](#) 🚧 Coming Soon
+
+| Status | API |
+| ------ | ----------- |
+| 🔴 Down | [QR Code Generator](#) 🚧 Coming Soon  |
+| 🔴 Down | [Math Quiz](#) 🚧 Coming Soon |
 
 ### API Status
 
 🚧 Coming soon
 
 ##### Free
-- [Planet Info](https://rapidapi.com/newbAPIOfficial/api/planets-info-by-newbapi/) 🚀
-- [Fake Users](https://newbapi.com/fake-api)
+| Status | API |
+| --- | ----------- |
+| 🟢 Active | [Planet Info](https://rapidapi.com/newbAPIOfficial/api/planets-info-by-newbapi/)  |
+| 🟢 Active | [Placeholder API (1K Users)](https://newbapi.com/fake-api) |
+
 ### Available on
 
 <img src="screenshot/blue_logo_f50bced105.svg" width="150">
