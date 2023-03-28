@@ -27,7 +27,7 @@ NewbAPI is available on the [RapidAPI Hub](https://rapidapi.com/user/newbAPIOffi
 
 ### API Status
 
-🚧 Coming soon
+[Check](https://status.newbapi.com/status/free-api)
 
 ##### Free
 | Status | API |
