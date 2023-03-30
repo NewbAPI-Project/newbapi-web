@@ -17,7 +17,7 @@ export default function AppNav() {
             <Link href={'/fake-api'} passHref legacyBehavior>
               <Nav.Link>Fake API</Nav.Link>
             </Link>
-            <Link href={'https://status.newbapi.com/status/free-api'} passHref legacyBehavior>
+            <Link href={'https://status.newbapi.com/status/system'} passHref legacyBehavior>
               <Nav.Link>API Status</Nav.Link>
             </Link>
           </Nav>
