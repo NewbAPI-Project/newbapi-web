@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Link from 'next/link';
 import { Container, Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
@@ -6,7 +7,15 @@ export default function AppNav() {
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
       <Link href={'/'} passHref legacyBehavior>
-        <Navbar.Brand>NewbAPI</Navbar.Brand>
+        <Navbar.Brand>
+          <img
+              src="/assets/logo.png"
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+              alt="NewbAPI Logo"
+            />
+        </Navbar.Brand>
       </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
@@ -18,7 +27,7 @@ export default function AppNav() {
               <Nav.Link>Fake API</Nav.Link>
             </Link>
             <Link href={'https://status.newbapi.com/status/system'} passHref legacyBehavior>
-              <Nav.Link>API Status</Nav.Link>
+              <Nav.Link>🟢 API Status</Nav.Link>
             </Link>
           </Nav>
         </Navbar.Collapse>
