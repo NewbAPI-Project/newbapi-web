@@ -23,6 +23,7 @@ NewbAPI is available on the [RapidAPI Hub](https://rapidapi.com/user/newbAPIOffi
 | Status | API |
 | ------ | ----------- |
 | 🟢 Active | [QR Code Generator](https://rapidapi.com/newbAPIOfficial/api/qr-code-by-newbapi/) |
+| 🟢 Active | [Short URL](https://rapidapi.com/newbAPIOfficial/api/short-url-by-newbapi) |
 | 🔴 Down | [Math Quiz](#) 🚧 Coming Soon |
 
 ### API Status
