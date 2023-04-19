@@ -26,15 +26,16 @@ NewbAPI is available on the [RapidAPI Hub](https://rapidapi.com/user/newbAPIOffi
 | 🟢 Active | [Short URL](https://rapidapi.com/newbAPIOfficial/api/short-url-by-newbapi) |
 | 🔴 Down | [Math Quiz](#) 🚧 Coming Soon |
 
-### API Status
-
-[Check](https://status.newbapi.com/status/free-api)
-
 ##### Free
 | Status | API |
 | --- | ----------- |
 | 🟢 Active | [Planet Info](https://rapidapi.com/newbAPIOfficial/api/planets-info-by-newbapi/)  |
 | 🟢 Active | [Placeholder API (1K Users)](https://newbapi.com/fake-api) |
+
+### API Status
+
+[Check](https://status.newbapi.com/status/free-api)
+
 
 ### Available on
 
